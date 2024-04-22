@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projet API</title>
+    <link rel="stylesheet" href="./front/Assets/CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="white">
+    <button id="createQuestionBtn">
+      <a href="./question.html">Créer un test</a>
+    </button>    
+    <article class="article">
+      <h3>La Ligne Droite</h3>
+      <section class="gauche">
+        <h2>BIENVENUE</h2>
+        <p>
+          Ici, nous valorisons l'intégrité académique. Nos tests sont conçus pour évaluer vos connaissances sans triche. Nous disposons de mesures de sécurité pour détecter toute activité suspecte. La triche entraînera l'interruption de votre session et une note de 0/20. Abordez chaque test avec honnêteté pour des résultats authentiques et significatifs. 
+          <br><br>
+          Puisse le sort vous être favorable !!!
+        </p>
+      </section>
+      <section class="droite">
+        <img
+          src="front/Assets/IMG/Illustration_sans_titre 4.png"
+          alt=""
+          class="profil"
+        />
+        <br />
+        <input type="text" name="Nom" placeholder="Nom " id="nom" required />
+        <input
+          type="text"
+          name="Prenom"
+          placeholder="Prenom"
+          id="prenom"
+          required
+        />
+        <button id="test">
+          <a href="./test1.html">Commencer le test</a>
+        </button>
+      </section>
+    </article>
+  </body>
+  <script type="module" src="./front/Assets/JS/script.js"></script>
+  <script type="module" src="./front/Assets/JS/fetch.js"></script>
+</html>

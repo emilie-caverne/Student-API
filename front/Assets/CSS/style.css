@@ -1,0 +1,187 @@
+/*... index.html ...*/
+body{
+    background-color: rgb(214, 255, 234);
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #002342;
+}
+.white{
+    background-color: white;
+}
+#createQuestionBtn {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    background-color: rgb(0, 35, 66);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+#createQuestionBtn a {
+    text-decoration: none;
+    color: white;
+}
+  
+.article{
+    margin: 40px;
+    background-color: rgb(214, 255, 234);
+    border-radius: 10px;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+.article .gauche, .article .droite{
+    text-align: center;
+    margin: auto;
+}
+.article .gauche{
+    margin-left: 100px;
+    margin-right: 30px;
+    
+}
+.article .droite > div {
+    margin-bottom: 20px; 
+    align-items: center;
+}
+.article .droite input {
+    display: block;
+    margin: 0 auto 10px;
+    height: 35px;
+    width: 200px;
+    border: none;
+    border-radius: 20px; 
+}
+.article .droite input:nth-child(2) {
+    margin-top: 10px;
+}
+.profil{
+    height: 200px;
+}
+#nom, #prenom{
+    background-color: white;
+}
+h3{
+    position: absolute; 
+    margin-left: 10px;
+    font-size: small;
+} 
+#test{
+    height: 30px;
+    width: 180px;
+    border: none;
+    border-radius: 20px; 
+    background-color: rgb(0, 35, 66);
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*... test.html ...*/
+.article2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px; 
+    font-size: xxx-larger;
+}
+
+.reponses {
+    display: grid;
+    margin: 30px auto;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 10px; 
+}
+.reponse{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(214, 255, 234);
+    font-size: xx-larger;
+    color: #002342;
+}
+.suivant{
+    height: 30px;
+    width: 180px;
+    border: none;
+    border-radius: 20px; 
+    background-color: rgb(0, 35, 66);
+    color: white;
+}
+
+/*... test2.html ...*/
+.article2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+#reponse_1, #reponse_2 {
+    width: 700px; 
+    height: 400px; 
+    font-size: 1.5rem; 
+    margin-bottom: 20px; 
+    background-color: rgba(255, 255, 255, 0.708);
+    border: none;
+    border-radius: 10px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+}
+button {
+    height: 30px;
+    width: 180px;
+    border: none;
+    border-radius: 20px; 
+    background-color: rgb(0, 35, 66);
+    color: white;
+}
+/*... question.html ...*/
+.questionContainer {
+    margin-bottom: 10px;
+}
+.removeQuestionBtn {
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.question{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: xx-larger;
+    color: #002342;
+}
+#addQuestionBtn{
+    margin-bottom: 20px;
+}
+#testNameContainer {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+#testName{
+    border: #002342 solid;
+    border-radius: 10px;
+}
+.article1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
